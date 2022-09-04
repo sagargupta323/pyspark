@@ -1,0 +1,13 @@
+dateparser
+delta-spark
+matplotlib
+money_parser
+oci
+pandas
+pillow
+pyarrow==1.0.0
+pyspark
+python-slugify
+pyunicode
+pyyaml
+yaml

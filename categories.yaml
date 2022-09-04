@@ -1,0 +1,131 @@
+Accessing Data Sources:
+    priority: 0
+    description: Loading data stored in filesystems or databases, and saving it.
+
+Data Handling Options:
+    priority: 2
+    description: Special data handling scenarios.
+
+DataFrame Operations:
+    priority: 4
+    description: Adding, removing and modifying DataFrame columns.
+
+Transforming Data:
+    priority: 6
+    description: Data conversions and other modifications.
+
+Sorting and Searching:
+    priority: 8
+    description: Filtering, sorting, removing duplicates and more.
+
+Grouping:
+    priority: 10
+    description: Group DataFrame data by key to perform aggregates like counting, sums, averages, etc.
+
+Joining DataFrames:
+    priority: 12
+    description: Joining and stacking DataFrames.
+
+File Processing:
+    priority: 14
+    description: Loading File Metadata and Processing Files.
+
+Handling Missing Data:
+    priority: 16
+    description: Dealing with NULLs and NaNs in DataFrames.
+
+Dealing with Dates:
+    priority: 18
+    description: Parsing and processing dates and times.
+
+Unstructured Analytics:
+    priority: 20
+    description: Analyzing unstructured data like JSON, XML, etc.
+
+Pandas:
+    priority: 22
+    description: Using Python's Pandas library to augment Spark. Some operations require the pyarrow library.
+
+Data Profiling:
+    priority: 24
+    description: Extracting key statistics out of a body of data.
+
+Data Management:
+    priority: 26
+    description: Upserts, updates and deletes on data.
+
+Spark Streaming:
+    priority: 28
+    description: Spark Streaming (Focuses on Structured Streaming).
+
+Time Series:
+    priority: 30
+    description: Techniques for dealing with time series data.
+
+Machine Learning:
+    priority: 32
+    description: Machine Learning
+
+Performance:
+    priority: 34
+    description: A few performance tips and tricks.
+
+Preamble:
+    description: >
+        PySpark Cheat Sheet
+
+        ===================
+
+        This cheat sheet will help you learn PySpark and write PySpark apps faster. Everything in here is fully functional PySpark code you can run or adapt to your programs.
+
+        
+        These snippets are licensed under the CC0 1.0 Universal License. That means you can freely copy and adapt these code snippets and you don't need to give attribution or include any notices.
+
+
+        These snippets use DataFrames loaded from various data sources:
+
+        - "Auto MPG Data Set" available from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/auto+mpg).
+
+        - customer_spend.csv, a generated time series dataset.
+
+        - date_examples.csv, a generated dataset with various date and time formats.
+
+
+        These snippets were tested against the Spark {version} API. This page was last updated {last_updated}.
+
+
+        Make note of these helpful links:
+
+        - [PySpark DataFrame Operations](http://spark.apache.org/docs/latest/api/python/reference/pyspark.sql.html#dataframe-apis)
+
+        - [Built-in Spark SQL Functions](https://spark.apache.org/docs/latest/api/sql/index.html)
+
+        - [MLlib Main Guide](http://spark.apache.org/docs/latest/ml-guide.html)
+
+        - [Structured Streaming Guide](https://spark.apache.org/docs/latest/api/python/reference/pyspark.ss.html)
+
+        - [PySpark SQL Functions Source](https://spark.apache.org/docs/latest/api/python/_modules/pyspark/sql/functions.html)
+
+
+        Try in a Notebook
+
+        -----------------
+
+        See the [Notebook How-To](notebook.md) for instructions on running in a Jupyter notebook.
+
+
+        Generate the Cheatsheet
+
+        -----------------------
+
+        You can generate the cheatsheet by running `cheatsheet.py` in your PySpark environment as follows:
+
+        - Install dependencies: `pip3 install -r requirements.txt`
+
+        - Generate README.md: `python3 cheatsheet.py`
+
+        - Generate cheatsheet.ipynb: `python3 cheatsheet.py --notebook`
+
+
+Postscript:
+    description:
